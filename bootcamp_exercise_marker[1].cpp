@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 string* getAllQuestions(){
+	// load questions from a file
 	string line;
 	ifstream file_object;
 	string questions[];
@@ -27,6 +28,7 @@ string* deleteStringElement(string element[], int index){
 	return new_elements;
 }
 char* getAnswers(string questions[]){
+	//let user fill in answers
 	char response;
 	char answers[];
 	for (int i = 0; i < questions.length(); i++){
@@ -37,6 +39,7 @@ char* getAnswers(string questions[]){
 	return answers;
 }
 void questionUser(string questions[], char solutions[]){
+	//Question user, mark answers and give response
 	while (sizeof(question) != 0){
 		int indexes[];
 		char* answers = getAnswers(questions);
