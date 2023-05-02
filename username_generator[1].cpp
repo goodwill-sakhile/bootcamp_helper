@@ -31,6 +31,7 @@ void getCampus(string &campus){
 	}
 }
 void getCohort(int &cohort){
+	//check if the cohort that the user is appyling to is valid
 	bool cohort_valid = false;
 	while (!cohort_valid){
 		cout << "Enter cohort year: ";
@@ -40,6 +41,7 @@ void getCohort(int &cohort){
 	}
 }
 string generateUsername(string f_name, string l_name, string campus, int cohort){
+	//user all the parameters received to generate username
 	string sub_f_name;
 	if (f_name.length() >= 3){
 		sub_f_name = f_name.substr(f_name.length() - 3, 3);
