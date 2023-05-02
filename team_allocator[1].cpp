@@ -11,6 +11,7 @@ string * studentList(){
 	return student_list;
 }
 string* seperateStudentByLocation(string students, string location){
+	//determine where the students come from and separate them according to their location
 	string place;
 	for (int i = 0; i < students.length(); i++){
 		location_index = students.find(location);
