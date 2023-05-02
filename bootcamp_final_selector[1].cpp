@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 string getUserName(){
+	// prompt user for their name
 	string user_name;
 	cout << "Enter name: ";
 	cin >> user_name;
