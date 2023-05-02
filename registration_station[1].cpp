@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 string getUserDetails(){
+	// get students basic informaton 
 	string details;
 	string line;
 	string user_name;
@@ -26,6 +27,7 @@ string getUserDetails(){
 	return details;
 }
 string correctOrIncorrect(){
+	//check if details are correct
 	string details;
 	details = getUserDetails();
 	int dash_line = details.find("-");
