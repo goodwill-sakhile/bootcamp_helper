@@ -16,6 +16,7 @@ string* getAllQuestions(){
 	return questions;
 }
 string* deleteStringElement(string element[], int index){
+	//get a string subset
 	string new_element[sizeof(elements) - 1];
 	for (int i = 0; i < elements.length(); i++){
 		if (i == index){
