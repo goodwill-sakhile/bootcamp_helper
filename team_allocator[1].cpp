@@ -3,6 +3,7 @@
 using namespace std;
 
 string * studentList(){
+	//student list example
 	string student_list[];
 	student_list[0] = "elomkhDBN2022-4April-DBN Physical-seat 3";
 	student_list[1] = "elomkhCPT2022-23May-CPT physical seat 4";
