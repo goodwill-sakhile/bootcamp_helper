@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+//mark students daily exercises
 string* getAllQuestions(){
 	// load questions from a file
 	string line;
