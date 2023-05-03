@@ -4,6 +4,7 @@ using namespace std;
 string VALID_CAMPUSES[] = {"JHB", "CPT", "DBN"};
 int VALID_COHORT = 2022;
 void getName(string &name, string prompt_message){
+	// prompt student for the name of the name
 	bool no_digit = false;
 	while (!no_digit){
 		cout << prompt_message;
