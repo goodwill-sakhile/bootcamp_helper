@@ -3,6 +3,7 @@
 using namespace std;
 string getUserDetails(){
 	// get students basic informaton 
+	//get user details and store them on a file
 	string details;
 	string line;
 	string user_name;
