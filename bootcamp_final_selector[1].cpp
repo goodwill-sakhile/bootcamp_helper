@@ -25,7 +25,7 @@ bool scanNameOnFile(string user_name, string file){
 	return found;
 }
 string* getUserResults(string user_name){
-	//calculate
+	//calculate total results for qualification
 	string files[3] = {"exam.txt", "group_projects.txt", "daily_exercises.txt"};
 	string line;
 	ifstream file_object;
