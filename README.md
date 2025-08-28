@@ -15,4 +15,3 @@ Bootcamp Helper is a C# console application that helps bootcamps manage candidat
 
 ---
 
-## 📂 Project Structure
