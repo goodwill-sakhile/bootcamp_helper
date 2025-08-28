@@ -16,18 +16,3 @@ Bootcamp Helper is a C# console application that helps bootcamps manage candidat
 ---
 
 ## 📂 Project Structure
-
-BootcampHelper/
-├── App/ # Application startup & runtime
-├── Config/ # System settings & flags
-├── Core/ # Business logic
-├── DTOs/ # Data transfer objects
-├── Logs/ # Logger and history
-├── Models/ # Candidate, Cohort, Task
-├── Repositories/ # In-memory data storage
-├── Services/ # Bridge between UI and Core
-├── Tasks/ # Task generation and tools
-├── Tests/ # Unit tests with NUnit
-├── UI/ # Console menus and navigation
-├── Utils/ # Reusable helpers
-├── Validation/ # Input and data validation
